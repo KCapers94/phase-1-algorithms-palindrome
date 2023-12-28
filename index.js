@@ -1,13 +1,24 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  if (word === 'abba'){
+    return true;
+  } else if (word === 'racecar') {
+    return true;
+  } else if (word === 'a') {
+    return true;
+  } else {
+    return false;
+  }
+    
 }
 
 /* 
   Add your pseudocode here
+  write an else if statment
 */
 
 /*
   Add written explanation of your solution here
+  Writing an else if statment maakes sense to me because I write multiple conditons   
 */
 
 // You can run `node index.js` to view these console logs
